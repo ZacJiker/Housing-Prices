@@ -5,4 +5,4 @@ PROJECT_PATH=/local_data/housing-prices
 SOURCE_PATH=${PROJECT_PATH}/housing-prices
 
 train_model:
-	python ${SOURCE_PATH}/models/train_model.py
+	python -m ${SOURCE_PATH}/models/train_model.py
